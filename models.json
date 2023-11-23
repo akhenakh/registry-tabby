@@ -1,6 +1,17 @@
 [
   {
-    "name": "XwinCoder-13B",
+    "name": "XwinCoder-13B-Q4M",
+    "provider_url": "https://huggingface.co/Xwin-LM/XwinCoder-13B",
+    "license_name": "Llama2",
+    "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
+    "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
+    "urls": [
+      "https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q4_K_M.gguf"
+    ],
+    "sha256": "1aafbe45dc7f4a680dd904683bf623722ccf7d84fc2f3e7a1d6fbf759b8057e5"
+  },
+  {
+    "name": "XwinCoder-13B-Q5",
     "provider_url": "https://huggingface.co/Xwin-LM/XwinCoder-13B",
     "license_name": "Llama2",
     "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
