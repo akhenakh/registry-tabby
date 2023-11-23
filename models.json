@@ -1,15 +1,14 @@
 [
   {
-    "name": "StarCoder-1B",
-    "provider_url": "https://huggingface.co/bigcode/starcoderbase-1b",
-    "license_name": "BigCode-OpenRAIL-M",
-    "license_url": "https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement",
+    "name": "XwinCoder-13B",
+    "provider_url": "https://huggingface.co/Xwin-LM/XwinCoder-13B",
+    "license_name": "Llama2",
+    "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
     "prompt_template": "<fim_prefix>{prefix}<fim_suffix>{suffix}<fim_middle>",
     "urls": [
-      "https://huggingface.co/TabbyML/StarCoder-1B/resolve/main/ggml/q8_0.v2.gguf",
-      "https://modelscope.cn/api/v1/models/TabbyML/StarCoder-1B/repo?FilePath=ggml/q8_0.v2.gguf"
+      "https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q5_K_M.gguf"
     ],
-    "sha256": "1bb6441486d102db03dac30c82d6b1029ee4f9f5d73f27444fa58cbfcd7cfa0f"
+    "sha256": "26346d0ba50f919a6e53c2f279709b20f7b14f4d0598c5f4687772c17f6491ec"
   },
   {
     "name": "StarCoder-3B",
